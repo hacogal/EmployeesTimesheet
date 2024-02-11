@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    text-shadow: 2px 2px 5px gainsboro;
+    color: #343a40;
+    text-align: center;
+    padding: 10px;
+
+}
+
+table,td,tr{
+    border:1px solid #343a40;
+    border-collapse: collapse;
+    width: 40%;
+    margin-left: 30%;
+}
+
+th{
+    padding: 20px;
+    background-color: gainsboro;
+    
+}
+td{
+    padding: 15px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+tr:hover{
+    background-color: gainsboro;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    background-color: #343a40;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-top: auto; 
+    position: absolute; 
+    bottom: 0px; 
+    left: 0px; 
+    right: 0px;
+}
+   
